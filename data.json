@@ -1,0 +1,398 @@
+{
+  "itinerari": [
+    {
+      "id": "winckelmann_roma",
+      "nome": "Alla scoperta della bellezza antica",
+      "sottotitolo": "Roma con Johann Joachim Winckelmann",
+      "personaggio": {
+        "nome": "Johann Joachim Winckelmann",
+        "anni": "1717-1768",
+        "professione": "Storico dell'arte",
+        "nazionalita": "Tedesca",
+        "biografia_breve": "Fondatore della moderna storia dell’arte, Winckelmann sviluppò a Roma una nuova interpretazione dell’antichità basata sull’idea di bellezza classica, definita come 'nobile semplicità e quieta grandezza'.",
+        "immagine": "assets/img/winckelmann.jpg",
+        "opere_correlate": [
+          "History of the Art of Antiquity (1764)"
+        ]
+      },
+      "tema": "Arte e Antichità Classica",
+      "categoria": "Arte e Cultura",
+      "durata_totale_ore": 6,
+      "difficolta": "facile",
+      "immagine_copertina": "assets/img/Alla scoperta della bellezza antica.png",
+      "distanza_totale_km": 5,
+      "periodo_consigliato": "Primavera/Autunno (temperature miti)",
+      "stagione_migliore": ["aprile", "maggio", "settembre", "ottobre"],
+      "descrizione": "Un itinerario che ripercorre la Roma del XVIII secolo attraverso lo sguardo di Winckelmann, esplorando i luoghi in cui nacque la moderna concezione della bellezza classica.",
+      "note_logistiche": "Percorso a piedi con brevi spostamenti. Consigliate scarpe comode e prenotazione per Musei Vaticani.",
+      "accessibilita": "Parzialmente accessibile. Alcune aree archeologiche presentano dislivelli.",
+      "costo_stimato": "Ingresso Musei Vaticani (~17€), altri siti gratuiti",
+      "tappe": [
+        {
+          "numero": 1,
+          "poi_id": "villa_albani",
+          "orario_consigliato": "09:00",
+          "momento_giornata": "mattina",
+          "durata_visita_min": 60,
+          "coordinate": [41.915, 12.507],
+          "nome": "Villa Albani Torlonia",
+          "descrizione_breve": "Residenza settecentesca con una delle più importanti collezioni di scultura antica.",
+          "indicazioni_arrivo": "Taxi o autobus da centro città",
+          "esperienza_culturale": {
+            "musica": {
+              "movimento": "Contemplazione della bellezza classica",
+              "brano_completo": "Gymnopédie No.1",
+              "compositore": "Erik Satie",
+              "durata_sec": 210,
+              "tonalita": "Re maggiore",
+              "organico": "pianoforte solo",
+              "anno_composizione": 1888,
+              "descrizione_musicale": "Il brano accompagna la visita con un ritmo lento e regolare, favorendo uno stato di calma e concentrazione. Le note essenziali e ripetitive creano un’atmosfera sospesa, ideale per osservare le sculture antiche e coglierne l’equilibrio e la purezza delle forme.",
+              "spotify_url": "https://open.spotify.com/search/gymnopedie%201%20satie",
+              "youtube_url": "https://www.youtube.com/watch?v=S-Xm7s9eGxU",
+              "note_ascolto": "Ascoltare a volume medio durante la visita, lasciando che la musica guidi lo sguardo nella contemplazione delle opere."
+            },
+            "letteratura": {
+              "citazione": "La bellezza ideale si esprime nella nobile semplicità e nella quieta grandezza.",
+              "autore": "Johann Joachim Winckelmann",
+              "opera": "History of the Art of Antiquity",
+              "anno": 1764,
+              "contesto": "Questa riflessione nasce dall’osservazione diretta delle sculture antiche, come quelle presenti nella collezione Albani, e sintetizza il pensiero estetico di Winckelmann."
+            },
+            "atmosfera": {
+              "momento": "mattina",
+              "luce": "naturale e diffusa tra giardini e statue",
+              "suoni_ambiente": [
+                "silenzio",
+                "passi sul ghiaieto",
+                "fruscio degli alberi"
+              ],
+              "temperatura_stimata": "15-20°C",
+              "affollamento": "basso",
+              "consiglio_fotografico": "Sfruttare la luce naturale del mattino per evidenziare i dettagli delle sculture e le ombre morbide.",
+              "emozione_target": "armonia, contemplazione, equilibrio"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Neoclasssicismo",
+              "architetti": ["Carlo Marchionni"],
+              "anno_costruzione": "1747-1767",
+              "committente": "Cardinale Alessandro Albani",
+              "descrizione": "Villa progettata per ospitare una collezione di sculture antiche, organizzata secondo criteri estetici che riflettono l’interesse per l’arte classica e la sua valorizzazione."
+            }
+          },
+          "storia": "Villa Albani fu uno dei principali centri culturali della Roma del XVIII secolo. Qui Winckelmann ebbe accesso diretto alle opere antiche, sviluppando il suo metodo di studio basato sull’osservazione e sul confronto tra stili.",
+          "curiosita": "Winckelmann lavorò a lungo nella villa come bibliotecario del cardinale Albani, contribuendo alla valorizzazione della collezione e trasformando il luogo in un punto di riferimento per studiosi europei.",
+          "metadata": {
+            "accessibilita": "limitata",
+            "orari_standard": "visite su prenotazione",
+            "servizi": ["visite guidate", "giardino"]
+          }
+        },
+        {
+          "numero": 2,
+          "poi_id": "Musei Vaticani",
+          "orario_consigliato": "11:00",
+          "momento_giornata": "mattino",
+          "durata_visita_min": 120,
+          "coordinate": [41.906, 12.453],
+          "nome": "Musei Vaticani",
+          "descrizione_breve": "Uno dei complessi museali più importanti al mondo, fondamentale per lo studio dell’arte antica.",
+          "indicazioni_arrivo": "Metro A – fermata Ottaviano",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "45 min",
+            "metro": "20 min + attese (metro B + metro A",
+            "distanza_km": 4.5
+          },
+          "esperienza_culturale": {
+            "musica": {
+              "movimento": "Elevazione e perfezione ideale",
+              "brano_completo": "Spiegel im Spiegel",
+              "compositore": "Arvo Pärt",
+              "durata_sec": 600,
+              "tonalita": "Fa maggiore",
+              "descrizione_musicale": "Il brano si sviluppa lentamente attraverso ripetizioni e variazioni minime, creando un senso di sospensione e purezza. Questa struttura riflette la perfezione ideale delle sculture classiche, accompagnando l’osservazione con un’atmosfera quasi meditativa.",
+              "strumenti_protagonisti": ["pianoforte", "violino"],
+              "carattere": "Purezza, elevazione, classicità",
+              "spotify_url": "https://open.spotify.com/search/spiegel%20im%20spiegel",
+              "youtube_url": "https://www.youtube.com/watch?v=TJ6Mzvh3XCc",
+              "note_ascolto": "Ascoltare durante l’osservazione delle sculture principali, lasciando che la musica amplifichi la percezione della perfezione formale."
+            },
+            "letteratura": {
+              "citazione": "L’arte greca raggiunge il suo massimo nella rappresentazione della bellezza ideale.",
+              "autore": "Johann Joachim Winckelmann",
+              "opera": "IHistory of the Art of Antiquity",
+              "anno": 1764,
+              "contesto": "Questa affermazione nasce dall’analisi delle sculture conservate nei Musei Vaticani, considerate modelli insuperabili di perfezione estetica."
+            },
+            "atmosfera": {
+              "momento": "mattino",
+              "luce": "illuminazione museale diffusa",
+              "suoni_ambiente": [
+                "voci basse dei visitatori",
+                "passi nelle gallerie",
+                "silenzio controllato"
+              ],
+              "temperatura_stimata": "18-22°C",
+              "affollamento": "medio-alto",
+              "consiglio_fotografico": "Evitare le ore di punta per cogliere meglio i dettagli delle opere.",
+              "emozione_target": "meraviglia, elevazione, contemplazione"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Collezioni classiche e rinascimentali",
+              "scultore": "Scultori greci e romani (anonimi)",
+              "anno_costruzione": "XVI secolo (ampliamenti successivi)",
+              "committente": "Papato",
+              "materiali": "marmo",
+              "altezza_m": "Variabile (es. Apollo del Belvedere circa 2.24 m)",
+              "descrizione": "Il complesso museale ospita alcune delle più importanti sculture dell’antichità classica, tra cui l’Apollo del Belvedere e il Laocoonte. Queste opere rappresentano per Winckelmann i modelli più alti di perfezione estetica, fondamentali per l’elaborazione del suo concetto di bellezza ideale."
+            }
+          },
+          "storia": "Winckelmann lavorò presso i Musei Vaticani come prefetto delle antichità, studiando direttamente le opere classiche e contribuendo alla loro valorizzazione e interpretazione.",
+          "curiosita": "L’Apollo del Belvedere, conservato qui, era considerato da Winckelmann il massimo esempio di bellezza ideale.",
+          "metadata": {
+            "accessibilita": "buona",
+            "orari_standard": "09:00-18:00",
+            "servizi": ["toilette","bookshop", "caffetteria"]
+          }
+        },
+        {
+          "numero": 3,
+          "poi_id": "pantheon",
+          "orario_consigliato": "14:30",
+          "momento_giornata": "pomeriggio",
+          "durata_visita_min": 30,
+          "coordinate": [41.8986, 12.4768],
+          "nome": "Pantheon",
+          "descrizione_breve": "Tempio romano perfettamente conservato, simbolo dell’armonia e della perfezione architettonica classica.",
+          "indicazioni_arrivo": "A piedi dal centro storico",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "25 min",
+            "distanza_km": 2
+          },
+          "esperienza_culturale": {
+            "musica": {
+              "movimento": "Armonia e perfezione architettonica",
+              "brano_completo": "Clair de lune",
+              "compositore": "Claude Debussy",
+              "durata_sec": 300,
+              "tonalita": " Re bemolle maggiore",
+              "descrizione_musicale": "Le sonorità morbide e fluide del brano accompagnano la percezione dello spazio del Pantheon, enfatizzando la simmetria e la luce che filtra dall’oculo centrale.",
+              "citazioni_famose": "La musica è il silenzio tra le note.",
+              "carattere": "Contemplativo, etereo, armonico",
+              "spotify_url": "https://open.spotify.com/search/clair%20de%20lune%20debussy",
+              "youtube_url": "https://www.youtube.com/watch?v=CvFH_6DNRCY",
+              "note_ascolto": "Ascoltare sotto la cupola, osservando la luce naturale che entra dall’oculo."
+            },
+            "letteratura": {
+              "citazione": "L'architettura è musica congelata",
+              "autore": "Attribuita a Goethe",
+              "opera": "Riflessioni sull'arte",
+              "anno": "XVIII secolo",
+              "contesto": "Il Pantheon rappresenta un esempio perfetto di armonia architettonica, in linea con l’idea di bellezza classica di Winckelmann."
+            },
+            "cinema": {
+              "film": "Angeli e Demoni",
+              "regista": "Ron Howard",
+              "anno": 2009,
+              "scena": "Il Pantheon appare come uno dei luoghi chiave nella ricerca degli indizi legati agli Illuminati.",
+              "descrizione": "La scena valorizza la monumentalità e il mistero del Pantheon, sottolineandone il ruolo simbolico e storico nella città di Roma."
+            },
+            "atmosfera": {
+              "momento": "pomeriggio",
+              "luce": "luce naturale dall'oculo centrale",
+              "suoni_ambiente": [
+                "eco delle voci",
+                "passi sul marmo",
+                "silenzio reverenziale"
+              ],
+              "temperatura_stimata": "18-22°C",
+              "affollamento": "medio-alto",
+              "consiglio_fotografico": "Scattare verso l’alto per catturare la cupola e il fascio di luce.",
+              "emozione_target": "armonia, meraviglia, elevazione"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Architettura romana imperiale",
+              "architetto": "Attribuito ad Apollodoro di Damasco",
+              "scultori": ["non applicabile"],
+              "anno_costruzione": "118-125 d.C.",
+              "committente": "Imperatore Adriano",
+              "dimensioni": "Diametro ed altezza della cupola: 43.3m",
+              "descrizione": "Il Pantheon è un capolavoro dell’ingegneria romana, caratterizzato da una perfetta proporzione tra altezza e diametro della cupola, simbolo dell’armonia universale."
+            }
+          },
+          "storia": "Costruito durante il regno di Adriano, il Pantheon è uno degli edifici meglio conservati dell’antica Roma e rappresenta un modello di perfezione architettonica ammirato anche nel XVIII secolo.",
+          "curiosita": "L’oculo centrale è l’unica fonte di luce naturale e crea effetti luminosi che cambiano durante la giornata.",
+          "leggende": ["Secondo una leggenda, il foro dell’oculo sarebbe stato creato dalla fuga dei demoni quando il tempio fu consacrato come chiesa cristiana."
+          ],
+          "metadata": {
+            "accessibilita": "ottima",
+            "orari_standard": "09:00-19:00",
+            "servizi": ["guide","audio guide"],
+            "warning": "Luogo molto affollato nelle ore centrali della giornata; prestare attenzione agli effetti di eco e al rispetto del silenzio."
+          }
+        },
+        {
+          "numero": 4,
+          "poi_id": "musei_capitolini",
+          "orario_consigliato": "15:30",
+          "momento_giornata": "pomeriggio",
+          "durata_visita_min": 60,
+          "coordinate": [41.893, 12.483],
+          "nome": "Musei Capitolini",
+          "descrizione_breve": "Tra i più antichi musei pubblici del mondo, fondamentali per lo studio della scultura antica.",
+          "indicazioni_arrivo": "A piedi dal Pantheon.",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "15 min",
+            "metro": "non necessario",
+            "distanza_km": 1.2
+          },
+          "esperienza_culturale": {
+            "musica": {
+              "movimento": "Equilibrio e razionalità classica",
+              "brano_completo": "Adagio for Strings",
+              "compositore": "Samuel Barber",
+              "durata_sec": 480,
+              "tonalita": "Si bemolle minore",
+              "descrizione_musicale": "Il brano accompagna la visita con una tensione emotiva controllata, che invita alla riflessione e alla contemplazione delle opere, enfatizzando la loro forza espressiva.",
+              "carattere": "Solenne, riflessivo, intenso",
+              "citazioni_famose": "La musica esprime ciò che non può essere detto.",
+              "spotify_url": "https://open.spotify.com/search/adagio%20for%20strings",
+              "youtube_url": "https://www.youtube.com/watch?v=izQsgE0L450",
+              "note_ascolto": "Ideale durante l’osservazione delle sculture più imponenti, per amplificare l’impatto emotivo."
+            },
+            "letteratura": {
+              "citazione": "L'arte deve essere compresa nel suo sviluppo storico.",
+              "autore": "Johann Joachim Winckelmann",
+              "opera": "History of the Art of Antiquity",
+              "anno": 1764,
+              "contesto": "Nei Musei Capitolini si sviluppa il confronto tra stili e periodi, centrale nel pensiero di Winckelmann."
+            },
+            "atmosfera": {
+              "momento": "pomeriggio",
+              "luce": "illuminazione museale diffusa",
+              "suoni_ambiente": [
+                "passi nelle sale",
+                "voci basse",
+                "silenzio controllato"
+              ],
+              "temperatura_stimata": "18-22°C (temperatura ideale)",
+              "affollamento": "medio",
+              "vista_panoramica": "Su Piazza del Campidoglio e sul Foro Romano",
+              "consiglio_fotografico": "Scattare nelle sale meno affollate per valorizzare le opere.",
+              "emozione_target": "riflessione, conoscenza, equilibrio"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Rinascimento e classicismo",
+              "architetto": "Michelangelo Buonarroti (piazza del Campidoglio)",
+              "anno_costruzione": "XV-XVI secolo",
+              "committente": "Papato",
+              "descrizione": "I Musei Capitolini conservano importanti opere della scultura antica, permettendo un confronto tra arte greca e romana, fondamentale per la teoria estetica di Winckelmann.",
+              "artisti_ospitati": ["Fidia (attribuzioni)", "Scultori romani", "Artisti rinascimentali"]
+            }
+          },
+          "storia": "I Musei Capitolini rappresentano uno dei primi esempi di museo pubblico e furono fondamentali per lo sviluppo degli studi sull’arte antica.",
+          "curiosita": "Qui è conservata la celebre statua della Lupa Capitolina, simbolo di Roma.",
+          "connessione_winckelmann": "I Musei Capitolini rappresentano uno dei luoghi fondamentali per gli studi di Winckelmann, che qui poté confrontare opere greche e romane, sviluppando la sua visione storica dell’arte e contribuendo alla definizione dei principi del Neoclassicismo.",
+          "metadata": {
+            "accessibilita": "buona",
+            "orari_standard": "09:30-19:30",
+            "servizi": ["caffetteria", "toilette", "bookshop"]
+          }
+        },
+        {
+          "numero": 5,
+          "poi_id": "foro_romano",
+          "orario_consigliato": "17:00",
+          "momento_giornata": "tramonto",
+          "durata_visita_min": 45,
+          "coordinate": [41.8925, 12.4853],
+          "nome": "Foro Romano",
+          "descrizione_breve": "Cuore della Roma antica, luogo simbolo della vita politica, religiosa e sociale dell’antichità.",
+          "indicazioni_arrivo": "A piedi dai Musei Capitolini.",
+          "tempo_spostamento_da_tappa_precedente": {
+            "a_piedi": "0 10min",
+            "metro": "non necessario",
+            "distanza_km": 0.8
+          },
+          "esperienza_culturale": {
+            "musica": {
+              "movimento": "Memoria e grandezza del passato",
+              "brano_completo": "Adagio in G minor",
+              "compositore": "Tomaso Albinoni",
+              "durata_sec": 540,
+              "tonalita": "Sol minore",
+              "descrizione_musicale": "Il brano si sviluppa con un’intensità crescente, evocando la solennità e la malinconia delle rovine del Foro Romano. Le armonie profonde accompagnano la riflessione sul tempo e sulla grandezza della civiltà antica.",
+              "carattere": "Solenne, malinconico, contemplativo",
+              "spotify_url": "https://open.spotify.com/search/adagio%20in%20g%20minor%20albinoni",
+              "youtube_url": "https://www.youtube.com/watch?v=XMbvcp480Y4",
+              "note_ascolto": "Ideale al tramonto, mentre si osservano le rovine illuminate dalla luce calda, per amplificare il senso di memoria storica."
+            },
+            "letteratura": {
+              "citazione": "Le rovine parlano più della storia di quanto facciano i libri.",
+              "autore": "Attribuita a Johann Joachim Winckelmann",
+              "opera": "Riflessioni sull'Antichità",
+              "anno": "XVIII secolo",
+              "contesto": "Il Foro rappresenta il luogo ideale per comprendere l’antichità non solo attraverso le opere, ma attraverso il contesto urbano."
+            },
+            "atmosfera": {
+              "momento": "tramonto",
+              "luce": "calda e dorata",
+              "suoni_ambiente": [
+                "vento tra le rovine",
+                "vpassi sulla terra",
+                "voci lontane"
+              ],
+              "temperatura_stimata": "18-22°C",
+              "affollamento": "medio",
+              "vista_panoramica": "Vista sul Colosseo, Palatino e sull’intero complesso archeologico",
+              "consiglio_fotografico": "Scattare al tramonto per valorizzare i contrasti tra luce e rovine.",
+              "emozione_target": "riflessione, nostalgia, grandezza"
+            },
+            "arte_visiva": {
+              "stile_architettonico": "Architettura romana antica",
+              "architetto": "Vari (epoca repubblicana e imperiale)",
+              "anno_costruzione": "VII secolo a.C. - IV secolo d.C.",
+              "committente": "Re e imperatori romani",
+              "materiali": "Pietra, marmo, laterizio",
+              "descrizione": "Il Foro Romano è un complesso di rovine che testimonia la vita pubblica dell’antica Roma, offrendo una visione diretta del contesto storico in cui si svilupparono le opere studiate da Winckelmann."
+            }
+          },
+          "storia": "Centro della vita politica e sociale dell’antica Roma, il Foro Romano fu progressivamente abbandonato e interrato, diventando nel XVIII secolo un luogo di studio per antiquari e studiosi come Winckelmann.",
+          "curiosita": "Nel XVIII secolo il Foro era conosciuto come 'Campo Vaccino', utilizzato per il pascolo degli animali.",
+          "connessione_winckelmann": "Il Foro Romano rappresenta per Winckelmann il completamento dello studio dell’antichità: non solo opere isolate, ma un intero contesto storico da interpretare attraverso le rovine e la struttura urbana",
+          "metadata": {
+            "accessibilita": "parziale",
+            "orari_standard": "09:00-18:30",
+            "servizi": ["biglietteria", "guide", "aree informative"]
+          }
+        }
+      ],
+      "mappa_percorso": {
+        "polyline_encoded": "encoded_winckelmann_route_example",
+        "colore_percorso": "#c975e6",
+        "stile_linea": "dashed"
+      },
+      "consigli_pratici": [
+        "Portare bottiglia d'acqua riutilizzabile (fontanelle romane lungo il percorso)",
+        "Indossare scarpe comode (circa 5 km totali a piedi)",
+        "Prenotare in anticipo l'ingresso ai Musei Vaticani",
+        "Cuffie di buona qualità per ascoltare la musica",
+        "Fare pause durante le visite museali per evitare affaticamento",
+        "Considerare una pausa pranzo tra Musei Vaticani e centro storico (zona Prati o Pantheon)"
+      ],
+      "migliore_periodo_anno": "Primavera e autunno, quando il clima è mite e la città è meno affollata",
+      "sconsigliato": ["Estate (alte temperature e forte affollamento nei siti turistici) e festività principali"],
+      "cosa_portare": [
+        "Smartphone con app mappe",
+        "Cuffie/auricolari",
+        "Bottiglia acqua",
+        "Scarpe comode",
+        "Cappello",
+        "Crema solare",
+        "Snack energetici",
+        "Biglietti prenotati per Musei Vaticani",
+        "Batteria portatile"
+      ]
+    }
+  ]
+}
