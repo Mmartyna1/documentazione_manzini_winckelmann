@@ -32,7 +32,7 @@
           "numero": 1,
           "poi_id": "villa_albani",
           "orario_consigliato": "09:00",
-          "momento_giornata": "mattina",
+          "momento_giornata": "mattino",
           "durata_visita_min": 60,
           "coordinate": [41.915, 12.507],
           "nome": "Villa Albani Torlonia",
@@ -78,10 +78,21 @@
               "anno_costruzione": "1747-1767",
               "committente": "Cardinale Alessandro Albani",
               "descrizione": "Villa progettata per ospitare una collezione di sculture antiche, organizzata secondo criteri estetici che riflettono l’interesse per l’arte classica e la sua valorizzazione."
+            },
+            "taccuino_winckelmann": {
+              "titolo": "Annotazioni da Villa Albani",
+              "citazione": "Qui l'antichità non è solo esposta, è resuscitata. Ogni marmo parla il linguaggio della perfezione.",
+              "analisi_critica": "Villa Albani rappresenta il vertice del mio ideale. Non è una semplice collezione, ma un tempio della bellezza dove le statue respirano in armonia con l'architettura. È qui che ho compreso come il vero artista non imiti la natura, ma la superi.",
+              "consiglio_estetico": "Cercate il bassorilievo dell'Antinoo: osservate la malinconia divina nel suo volto, l'essenza stessa della grazia greca."
             }
           },
           "storia": "Villa Albani fu uno dei principali centri culturali della Roma del XVIII secolo. Qui Winckelmann ebbe accesso diretto alle opere antiche, sviluppando il suo metodo di studio basato sull’osservazione e sul confronto tra stili.",
           "curiosita": "Winckelmann lavorò a lungo nella villa come bibliotecario del cardinale Albani, contribuendo alla valorizzazione della collezione e trasformando il luogo in un punto di riferimento per studiosi europei.",
+          "sfide_osservazione": [
+            "Trova il bassorilievo dell'Antinoo e osserva la corona di fiori: i petali sono scolpiti singolarmente.",
+            "Individua le colonne in marmo caristio (cipollino) nel portico: nota le venature verdi 'a buccia di cipolla'.",
+            "Cerca la firma di Winckelmann incisa idealmente nella disposizione delle statue."
+          ],
           "metadata": {
             "accessibilita": "limitata",
             "orari_standard": "visite su prenotazione",
@@ -145,10 +156,21 @@
               "materiali": "marmo",
               "altezza_m": "Variabile (es. Apollo del Belvedere circa 2.24 m)",
               "descrizione": "Il complesso museale ospita alcune delle più importanti sculture dell’antichità classica, tra cui l’Apollo del Belvedere e il Laocoonte. Queste opere rappresentano per Winckelmann i modelli più alti di perfezione estetica, fondamentali per l’elaborazione del suo concetto di bellezza ideale."
+            },
+            "taccuino_winckelmann": {
+              "titolo": "Dal Cortile del Belvedere",
+              "citazione": "L'Apollo del Belvedere è l'ideale più alto dell'arte tra tutte le opere dell'antichità.",
+              "analisi_critica": "Davanti all'Apollo, lo spirito si eleva. Non vi è nulla di mortale in questa figura: la sua pelle sembra tesa da un soffio divino. E nel Laocoonte, invece, troviamo la nobile semplicità nel dolore; un'anima grande che soffre, ma non grida.",
+              "consiglio_estetico": "Chiudete gli occhi per un istante prima di guardare l'Apollo: lasciate che l'idea della bellezza preceda la vista."
             }
           },
           "storia": "Winckelmann lavorò presso i Musei Vaticani come prefetto delle antichità, studiando direttamente le opere classiche e contribuendo alla loro valorizzazione e interpretazione.",
           "curiosita": "L’Apollo del Belvedere, conservato qui, era considerato da Winckelmann il massimo esempio di bellezza ideale.",
+          "sfide_osservazione": [
+            "Osserva i muscoli tesi del Laocoonte: riesci a vedere la vena gonfia sul braccio destro?",
+            "Guarda il volto dell'Apollo: nota come lo sguardo sembra rivolto all'infinito, oltre lo spettatore.",
+            "Trova il Torso del Belvedere e prova a immaginare come sarebbero stati gli arti mancanti."
+          ],
           "metadata": {
             "accessibilita": "buona",
             "orari_standard": "09:00-18:00",
@@ -218,11 +240,22 @@
               "committente": "Imperatore Adriano",
               "dimensioni": "Diametro ed altezza della cupola: 43.3m",
               "descrizione": "Il Pantheon è un capolavoro dell’ingegneria romana, caratterizzato da una perfetta proporzione tra altezza e diametro della cupola, simbolo dell’armonia universale."
+            },
+            "taccuino_winckelmann": {
+              "titolo": "Sotto l'Oculo del Pantheon",
+              "citazione": "L'occhio viene condotto verso l'alto, dove la luce del cielo bacia il marmo in una nobile semplicità.",
+              "analisi_critica": "Il Pantheon incarna la perfezione sferica. Qui l'architettura non è solo costruzione, ma una rappresentazione del cosmo stesso. La luce zenitale non illumina semplicemente lo spazio, ma lo nobilita, rendendo la materia eterea.",
+              "consiglio_estetico": "Sostate al centro esatto, sotto l'apertura della cupola, per percepire il rapporto tra l'uomo e l'infinito."
             }
           },
           "storia": "Costruito durante il regno di Adriano, il Pantheon è uno degli edifici meglio conservati dell’antica Roma e rappresenta un modello di perfezione architettonica ammirato anche nel XVIII secolo.",
           "curiosita": "L’oculo centrale è l’unica fonte di luce naturale e crea effetti luminosi che cambiano durante la giornata.",
           "leggende": ["Secondo una leggenda, il foro dell’oculo sarebbe stato creato dalla fuga dei demoni quando il tempio fu consacrato come chiesa cristiana."
+          ],
+          "sfide_osservazione": [
+            "Conta i 5 ordini di cassettoni della cupola: nota come diventano più piccoli salendo verso l'oculo.",
+            "Trova le macchie di umidità sul pavimento: indicano dove cade la pioggia quando piove dall'apertura.",
+            "Individua le grandi porte di bronzo: sono tra le più antiche e imponenti ancora in uso al mondo."
           ],
           "metadata": {
             "accessibilita": "ottima",
@@ -288,11 +321,22 @@
               "committente": "Papato",
               "descrizione": "I Musei Capitolini conservano importanti opere della scultura antica, permettendo un confronto tra arte greca e romana, fondamentale per la teoria estetica di Winckelmann.",
               "artisti_ospitati": ["Fidia (attribuzioni)", "Scultori romani", "Artisti rinascimentali"]
+            },
+            "taccuino_winckelmann": {
+              "titolo": "Riflessioni sul Colle Capitolino",
+              "citazione": "Nel Galata Morente vediamo la dignità della natura umana anche nel momento estremo.",
+              "analisi_critica": "Questi musei custodiscono l'anima di Roma. Il Galata è un capolavoro di verità: non c'è teatralità, solo la quieta grandezza di un uomo che accetta il suo destino. È il trionfo della forma che vince sulla sofferenza fisica.",
+              "consiglio_estetico": "Osservate il Lupo Capitolino: sentite la forza primordiale del mito che si fa metallo e storia."
             }
           },
           "storia": "I Musei Capitolini rappresentano uno dei primi esempi di museo pubblico e furono fondamentali per lo sviluppo degli studi sull’arte antica.",
           "curiosita": "Qui è conservata la celebre statua della Lupa Capitolina, simbolo di Roma.",
           "connessione_winckelmann": "I Musei Capitolini rappresentano uno dei luoghi fondamentali per gli studi di Winckelmann, che qui poté confrontare opere greche e romane, sviluppando la sua visione storica dell’arte e contribuendo alla definizione dei principi del Neoclassicismo.",
+          "sfide_osservazione": [
+            "Guarda il volto del Galata Morente: nota la dignità del dolore e le ciocche di capelli ispessite dal fango.",
+            "Trova la Lupa Capitolina e osserva la differenza di stile tra la lupa (etrusca) e i gemelli (rinascimentali).",
+            "Cerca i frammenti della statua colossale di Costantino nel cortile: quanto è grande solo la sua mano?"
+          ],
           "metadata": {
             "accessibilita": "buona",
             "orari_standard": "09:30-19:30",
@@ -355,11 +399,22 @@
               "committente": "Re e imperatori romani",
               "materiali": "Pietra, marmo, laterizio",
               "descrizione": "Il Foro Romano è un complesso di rovine che testimonia la vita pubblica dell’antica Roma, offrendo una visione diretta del contesto storico in cui si svilupparono le opere studiate da Winckelmann."
+            },
+            "taccuino_winckelmann": {
+              "titolo": "Passeggiando tra le Rovine",
+              "citazione": "Ogni frammento qui è un'elegia. La rovina non è fine, ma testimonianza di una gloria eterna.",
+              "analisi_critica": "Camminare nel Foro è leggere un libro di marmo. Anche se il tempo ha spezzato le colonne, la loro 'quieta grandezza' rimane intatta. È tra queste pietre che si impara che la bellezza, una volta raggiunta, non può mai essere veramente distrutta.",
+              "consiglio_estetico": "Visitate il Foro al tramonto, quando le ombre lunghe ridanno volume alle colonne scomparse."
             }
           },
           "storia": "Centro della vita politica e sociale dell’antica Roma, il Foro Romano fu progressivamente abbandonato e interrato, diventando nel XVIII secolo un luogo di studio per antiquari e studiosi come Winckelmann.",
           "curiosita": "Nel XVIII secolo il Foro era conosciuto come 'Campo Vaccino', utilizzato per il pascolo degli animali.",
           "connessione_winckelmann": "Il Foro Romano rappresenta per Winckelmann il completamento dello studio dell’antichità: non solo opere isolate, ma un intero contesto storico da interpretare attraverso le rovine e la struttura urbana",
+          "sfide_osservazione": [
+            "Trova i buchi nelle pietre del Colosseo o degli archi: servivano per estrarre il piombo e il ferro dei perni.",
+            "Individua il marmo 'Giallo Antico' sulle colonne rimaste del Tempio di Saturno.",
+            "Cerca i solchi lasciati dai carri sulle pietre della Via Sacra."
+          ],
           "metadata": {
             "accessibilita": "parziale",
             "orari_standard": "09:00-18:30",

@@ -954,6 +954,209 @@
                     `;
                     container.appendChild(atmDiv);
                 }
+
+                // Cinema
+                if (exp.cinema) {
+                    const cinemaDiv = document.createElement('div');
+                    cinemaDiv.className = 'esperienza-section';
+                    cinemaDiv.style.borderLeftColor = '4px solid #d35400'; 
+                    cinemaDiv.innerHTML = `
+                        <h3>🎬 Roma nel Cinema</h3>
+                        <p><strong>Film:</strong> <em>${exp.cinema.film}</em> (${exp.cinema.regista}, ${exp.cinema.anno})</p>
+                        <p style="margin-top:10px;"><strong>La scena:</strong> ${exp.cinema.scena}</p>
+                        <p style="margin-top:10px; font-style:italic; color:#555;">${exp.cinema.descrizione}</p>
+                    `;
+                    container.appendChild(cinemaDiv);
+                }
+
+                // Arte Visiva
+                if (exp.arte_visiva) {
+                    const arteDiv = document.createElement('div');
+                    arteDiv.className = 'music-player'; 
+                    arteDiv.style.setProperty('background-color', '#004d3c', 'important');
+                    arteDiv.style.setProperty('background-image', 'linear-gradient(135deg, #005a46 0%, #004234 100%)', 'important');
+                    arteDiv.style.color = '#ffffff';
+                    arteDiv.innerHTML = `
+                        <h4 style="margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.3); padding-bottom: 8px;">
+                            🏛️ Arte Visiva e Architettura
+                        </h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 0.9em; margin-bottom: 15px;">
+                            <div><strong>Stile:</strong> ${exp.arte_visiva.stile_architettonico}</div>
+                            <div><strong>Periodo:</strong> ${exp.arte_visiva.anno_costruzione}</div>
+                            <div><strong>Architetto:</strong> ${exp.arte_visiva.architetto}</div>
+                            <div><strong>Committente:</strong> ${exp.arte_visiva.committente}</div>
+                        </div>
+                        ${exp.arte_visiva.dimensioni ? `
+                            <div style="background: rgba(255,255,255,0.15); padding: 8px; border-radius: 4px; margin-bottom: 10px; font-size: 0.9em;">
+                                <strong>📏 Dimensioni:</strong> ${exp.arte_visiva.dimensioni}
+                            </div>` : ''}
+                        <p style="font-style: italic; font-size: 0.95em; line-height: 1.4; opacity: 0.9;">
+                            ${exp.arte_visiva.descrizione}
+                        </p>
+                    `;
+                    container.appendChild(arteDiv);
+                }
+
+                // Il Tacquino di Winckelmann
+                if (exp.taccuino_winckelmann) {
+                    const taccuinoDiv = document.createElement('div');
+                    taccuinoDiv.className = 'esperienza-section';
+                    taccuinoDiv.style.backgroundColor = '#fdf5e6'; // Old Lace
+                    taccuinoDiv.style.border = '1px solid #d2b48c';
+                    taccuinoDiv.style.borderRadius = '2px';
+                    taccuinoDiv.style.padding = '20px';
+                    taccuinoDiv.style.boxShadow = 'inset 0 0 30px rgba(0,0,0,0.05), 3px 3px 10px rgba(0,0,0,0.1)';
+                    taccuinoDiv.style.position = 'relative';
+                    taccuinoDiv.innerHTML = `
+                        <h3 style="font-family: 'Georgia', serif; color: #5d4037; border-bottom: 1px solid #d2b48c; margin-bottom: 15px;">
+                            🖋️ ${exp.taccuino_winckelmann.titolo}
+                        </h3>
+                        <p style="font-style: italic; color: #795548; font-size: 1.1em; line-height: 1.6; margin-bottom: 15px; border-left: 3px solid #d2b48c; padding-left: 15px;">
+                            "${exp.taccuino_winckelmann.citazione}"
+                        </p>
+                        <p style="color: #4e342e; font-size: 0.95em; line-height: 1.5;">
+                            ${exp.taccuino_winckelmann.analisi_critica}
+                        </p>
+                        <div style="margin-top: 15px; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; color: #8d6e63; font-weight: bold;">
+                            💡 Consiglio: ${exp.taccuino_winckelmann.consiglio_estetico}
+                        </div>
+                    `;
+                    container.appendChild(taccuinoDiv);
+                }
+
+                // Leggende
+                if (tappa.leggende && tappa.leggende.length > 0) {
+                    const vinaccia = '#800020'; // Definizione del colore vinaccia
+                    const leggendeDiv = document.createElement('div');
+                    leggendeDiv.className = 'esperienza-section';
+                    leggendeDiv.style.borderLeft = `4px solid ${vinaccia}`;
+                    leggendeDiv.innerHTML = `
+                        <h3 style="color: ${vinaccia}; margin-bottom: 12px;">✨ Leggende e Miti</h3>
+                        <ul style="padding-left: 20px; color: #444; line-height: 1.6; list-style-type: '✧ ';">
+                            ${tappa.leggende.map(l => `
+                                <li style="margin-bottom: 10px; font-style: italic;">
+                                    ${l}
+                                </li>
+                            `).join('')}
+                        </ul>
+                    `;
+                    container.appendChild(leggendeDiv);
+                }
+
+                // Metadata
+                if (tappa.metadata) {
+                    const arancioneBordo = '#ff8c00';
+                    const arancioneSfondo = '#fff2e6';
+                    const metaDiv = document.createElement('div');
+                    metaDiv.style.marginTop = '25px';
+                    metaDiv.style.padding = '20px';
+                    metaDiv.style.backgroundColor = arancioneSfondo;
+                    metaDiv.style.borderRadius = '12px';
+                    metaDiv.style.border = `1px solid ${arancioneBordo}`;
+                    metaDiv.style.fontSize = '0.9em';
+                    metaDiv.style.boxShadow = '0 2px 10px rgba(255, 140, 0, 0.05)';
+                    const getServiceIcon = (servizio) => {
+                        const icons = {
+                            'guide': '👤',
+                            'audio guide': '🎧',
+                            'visite guidate': '🎟️',
+                            'giardino': '🌿',
+                            'toilette': '🚻',
+                            'bookshop': '📚',
+                            'caffetteria': '☕',
+                            'biglietteria': '🎫',
+                            'aree informative': 'ℹ️'
+                        };
+                        return icons[servizio.toLowerCase()] || '🛠️';
+                    };
+                    const m = tappa.metadata;
+                    metaDiv.innerHTML = `
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+                            <div><strong style="color: #555;">♿ Accessibilità:</strong> <br>${m.accessibilita}</div>
+                            <div><strong style="color: #555;">⏰ Orari:</strong> <br>${m.orari_standard}</div>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong style="display: block; margin-bottom: 10px; color: #444; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1px;">
+                                Servizi e Comfort
+                            </strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                ${m.servizi.map(s => `
+                                    <span style="background: white; border: 1px solid #e0e0e0; padding: 6px 12px; border-radius: 8px; display: flex; align-items: center; gap: 8px; font-size: 0.85em; transition: all 0.2s; cursor: default;">
+                                        <span style="font-size: 1.1em;">${getServiceIcon(s)}</span> 
+                                        <span style="color: #333;">${s.charAt(0).toUpperCase() + s.slice(1)}</span>
+                                    </span>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ${m.warning ? `
+                            <div style="background: #fff9db; color: #92720d; padding: 12px; border-radius: 8px; border-left: 5px solid #fab005; display: flex; gap: 12px; align-items: center; margin-top: 10px;">
+                                <span style="font-size: 1.3em;">⚠️</span>
+                                <span style="line-height: 1.4;"><strong>Nota per il visitatore:</strong> ${m.warning}</span>
+                            </div>` : ''}
+                    `;
+                    container.appendChild(metaDiv);
+                }
+            }
+            
+            // Checklist interattiva: sfide di osservazione
+            if (tappa.sfide_osservazione && tappa.sfide_osservazione.length > 0) {
+                const checkDiv = document.createElement('div');
+                checkDiv.style.marginTop = '25px';
+                checkDiv.style.padding = '20px';
+                checkDiv.style.border = '2px dashed #004d3c';
+                checkDiv.style.backgroundColor = '#f4f9f7';
+                checkDiv.style.borderRadius = '12px';
+                checkDiv.style.position = 'relative';
+                const total = tappa.sfide_osservazione.length;
+                checkDiv.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                        <h4 style="margin:0; color: #004d3c; font-family: 'Georgia', serif; font-size: 1.1em;">
+                            🎯 Obiettivi di Osservazione
+                        </h4>
+                        <span id="counter-label" style="background: #004d3c; color: white; padding: 3px 12px; border-radius: 20px; font-size: 0.75em; font-weight: bold; letter-spacing: 1px;">
+                            0 / ${total}
+                        </span>
+                    </div>
+        
+                    <div style="width: 100%; height: 6px; background: #e0e0e0; border-radius: 10px; margin-bottom: 20px; overflow: hidden;">
+                        <div id="progress-fill" style="width: 0%; height: 100%; background: #004d3c; transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);"></div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 20px;">
+                        ${tappa.sfide_osservazione.map((sfida, i) => `
+                            <label style="display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-size: 0.92em; line-height: 1.4; color: #2c3e50;">
+                                <input type="checkbox" class="sfida-checkbox" style="width: 18px; height: 18px; margin-top: 2px; accent-color: #004d3c; cursor: pointer;"> 
+                                <span>${sfida}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                    
+                `;
+
+                // --- LOGICA INTERATTIVA ---
+                const checkboxes = checkDiv.querySelectorAll('.sfida-checkbox');
+                const counterLabel = checkDiv.querySelector('#counter-label');
+                const progressFill = checkDiv.querySelector('#progress-fill');
+                checkboxes.forEach(box => {
+                    box.addEventListener('change', () => {
+                       const checkedCount = checkDiv.querySelectorAll('.sfida-checkbox:checked').length;
+                         
+                        counterLabel.innerText = `${checkedCount} / ${total}`;
+                        
+                        const percentage = (checkedCount / total) * 100;
+                        progressFill.style.width = `${percentage}%`;
+
+                        const textSpan = box.nextElementSibling;
+                        if (box.checked) {
+                            textSpan.style.opacity = '0.6';
+                            textSpan.style.textDecoration = 'line-through';
+                        } else {
+                            textSpan.style.opacity = '1';
+                            textSpan.style.textDecoration = 'none';
+                        }
+                    });
+                });
+                container.appendChild(checkDiv);
             }
         }
         
@@ -973,8 +1176,7 @@
         }
         
         // ========================================
-        // AVVIO
-        // ========================================
+        // AVVIO      // ========================================
         window.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
